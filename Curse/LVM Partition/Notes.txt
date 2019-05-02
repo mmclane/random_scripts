@@ -1,0 +1,4 @@
+Shell script written and tested on Ubuntu 14.04 LTS.
+
+Usage: ./lvmsetup.sh /dev/sdb /mnt/foo 
+This will create a single formatted partion from /dev/sdb and mount it at /mnt/foo.  

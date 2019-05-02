@@ -1,0 +1,10 @@
+Assumptions:
+
+- Servers.txt is located at c:\temp\serveres.txt.  The contents include names, MAC address (w/o :), and IP Address of each server
+- The server IP addresses are all in the 192.168.1.0/24 DHCP scope.  This could be customized but for simplicity state I left it static.
+- The server this is being run on has a static IP address in the 192.168.1.0 range.
+- You are running it locally as an admin you want the services installed on.
+
+Note:  I do not actually know if this will run successfully on a server 2012 machine.  I don't have one to test with.  I did have a Server 2008 R2 machine and tested most of the script.  DHCP was difficult to test in my environment because I couldn't actually bring it up.  The DNS configuration should work.  Because I was working on Server 2008 I used older commands to achieve the goals.  There are new cmdlets that I may have used with the new OS.  I also would do a lot more testing, and possibly logging of the setup before moving it to production.
+
+
